@@ -1,0 +1,108 @@
+.nav {
+  
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#2377b8;
+    overflow-x: hidden;
+    padding-top: 20px;
+   
+  }
+  
+  .nav ul {
+    margin-top: 60%;
+    
+    padding: 0;
+
+    list-style-type: none;
+  
+    list-style: none;
+    color: white;
+
+  }
+  
+
+.nav ul li{
+ 
+      /* background-color: white; */
+    /* background-color: gray; */
+    border-radius: 20px 0px 0 20px;
+    align-content: center;
+  
+    
+    margin-left: 10px;
+    /* background-color: #005aea; */
+    text-align: center;
+
+    
+
+    /* font-weight: bold; */
+}
+/* .nav ul li:hover::after {
+  content: "";
+  display: block;
+  position: relative;
+
+  float:right;
+  background-color: white;
+  
+  height: 20px;
+  width: 25px;
+  border-top-right-radius: 25px;
+} */
+
+
+.nav ul li:hover,.nav ul li.active {
+
+    
+    background-color:white;
+   
+    cursor: pointer;
+    color: #2377b8;
+    border-right: 1px solid #cccaca;
+}
+
+
+
+
+.nav ul li a {
+   
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 20%;
+  height: 80px;
+  }
+.link{
+}
+.label{
+  font-size: 15px;
+}
+
+.icon{
+  font-size: 25px;
+  display: inline-block;
+  
+
+}
+ 
+
+  /* .nav ul li  {
+    width: 100%;
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  .nav ul li :hover{
+    padding: 20px 20px 20px 40px;
+    color:white;
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
+    background-color: yellowgreen;
+  } */
